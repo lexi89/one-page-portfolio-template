@@ -1932,11 +1932,18 @@ select {
   position: relative;
   top: -100px;
   text-align: center; }
+  @media screen and (max-width: 39.9375em) {
+    .headline-container {
+      top: 0px; } }
 
 .jumbo {
   padding: 20px;
   font-size: 4rem;
   color: #333232; }
+  @media screen and (max-width: 39.9375em) {
+    .jumbo {
+      font-size: 2rem;
+      color: white; } }
 
 .section {
   padding: 3rem 0rem;

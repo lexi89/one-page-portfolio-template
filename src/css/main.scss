@@ -59,12 +59,19 @@
   position:relative;
   top:-100px;
   text-align: center;
+  @media #{$small-only}{
+    top:0px;
+
+  }
 }
 .jumbo{
   padding:20px;
   font-size: 4rem;
   color: $black;
-
+  @media #{$small-only}{
+    font-size:2rem;
+    color:white;
+  }
 }
 
 // Sections
